@@ -4,7 +4,7 @@ import * as express from 'express';
 import { newEcom, newEvo, newGPS } from "./interface/type";
 
 
-const serviceAccount = require('./permisos.json');
+const serviceAccount = require('../permisos.json');
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)

@@ -2,7 +2,7 @@
   "name": "pruebas804",
   "version": "1.0.0",
   "description": "Repositorio pruebas  smart 360",
-  "main": "index.js",
+  "main": "firebase.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
