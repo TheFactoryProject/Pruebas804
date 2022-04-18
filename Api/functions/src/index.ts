@@ -124,7 +124,7 @@ ex.post('/addEcomJson', async (req, res) => {
     //add json with any format
     try{
 
-        const jsonItem = {
+        const jsonItem: any = {
             date:req.body.date,
             lat: req.body.lat,
             lon: req.body.lon,
